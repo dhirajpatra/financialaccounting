@@ -1,0 +1,21 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: raha_root_password
+      MYSQL_DATABASE: raha_db
+      MYSQL_USER: raha_admin
+      MYSQL_PASSWORD: raha_password
+  web:
+    image: raha
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 8080:80
+    environment:
+      APP_DEBUG: "true"
+    links:
+      - mysql
