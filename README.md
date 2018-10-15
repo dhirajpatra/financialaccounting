@@ -53,3 +53,4 @@ Raha is ready for different language translation.
 ## License
 
 Raha is released under the [MIT license](LICENSE.txt).
+
