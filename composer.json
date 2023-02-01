@@ -20,7 +20,7 @@
         "dingo/api": "1.0.0-beta8",
         "doctrine/dbal": "2.5.*",
         "fideloper/proxy": "3.3.*",
-        "guzzlehttp/guzzle": "6.3.*",
+        "guzzlehttp/guzzle": "",
         "intervention/image": "2.3.*",
         "jenssegers/date": "3.3.*",
         "kyslik/column-sortable": "5.4.*",
